@@ -13,11 +13,11 @@ jobs:
     steps:
     # Step 1: Checkout the source code from GitHub onto the runner machine
     - name: Checkout Code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4.1.7
 
     # Step 2: Configure Python on the runner computer
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v5.1.1
       with:
         python-version: '3.11'
 
