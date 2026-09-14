@@ -1,0 +1,11 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+venv/
+my_playground/
+my_playground*/
+__pycache__/
+aws/
+awscliv2.zip
+
